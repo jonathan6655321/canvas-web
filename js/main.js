@@ -21,8 +21,8 @@ function handleOrientation(event) {
   var gamma    = event.gamma;
 
   if (alpha > 0 && alpha < 45) {
-    document.getElementById('image').toggleClass('invisible', false);
+    document.getElementById('image').classList.toggle('invisible', false);
   } else {
-    document.getElementById('image').toggleClass('invisible', true);
+    document.getElementById('image').classList.toggle('invisible', true);
   }
 }
